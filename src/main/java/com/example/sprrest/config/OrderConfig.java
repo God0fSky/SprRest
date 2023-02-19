@@ -3,10 +3,8 @@ package com.example.sprrest.config;
 import com.example.sprrest.model.Order;
 import com.example.sprrest.model.Product;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;

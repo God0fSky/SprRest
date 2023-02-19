@@ -3,10 +3,12 @@ package com.example.sprrest.config;
 import com.example.sprrest.model.Product;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.annotation.Order;
 
 import java.math.BigDecimal;
 
 @Configuration
+@Order(1)
 public class ProductConfig {
 
     @Bean
